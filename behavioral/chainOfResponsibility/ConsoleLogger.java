@@ -1,4 +1,4 @@
-package designPattern.behavioal.chainOfResponsibility;
+package designPattern.behavioral.chainOfResponsibility;
 
 class ConsoleLogger extends LogHandler {
     public ConsoleLogger(int level) {

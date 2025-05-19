@@ -1,4 +1,4 @@
-package designPattern.behavioal.observer;
+package designPattern.behavioral.observer;
 
 interface Observer {
     void update(String message);

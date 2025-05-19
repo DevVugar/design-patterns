@@ -1,4 +1,4 @@
-package designPattern.behavioal.observer;
+package designPattern.behavioral.observer;
 
 class NewsSubscriber implements Observer {
     private String name;

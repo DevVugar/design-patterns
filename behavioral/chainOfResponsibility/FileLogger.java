@@ -1,4 +1,4 @@
-package designPattern.behavioal.chainOfResponsibility;
+package designPattern.behavioral.chainOfResponsibility;
 
 class FileLogger extends LogHandler {
     public FileLogger(int level) {

@@ -1,4 +1,4 @@
-package designPattern.behavioal.strategy;
+package designPattern.behavioral.strategy;
 
 class CreditCardPayment implements PaymentStrategy {
     private String cardNumber;

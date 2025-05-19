@@ -1,4 +1,4 @@
-package designPattern.behavioal.strategy;
+package designPattern.behavioral.strategy;
 
 class PayPalPayment implements PaymentStrategy {
     private String email;
