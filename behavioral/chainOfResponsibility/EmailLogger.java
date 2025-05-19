@@ -1,4 +1,4 @@
-package designPattern.behavioal.chainOfResponsibility;
+package designPattern.behavioral.chainOfResponsibility;
 
 class EmailLogger extends LogHandler {
     public EmailLogger(int level) {

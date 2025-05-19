@@ -1,4 +1,4 @@
-package designPattern.behavioal.strategy;
+package designPattern.behavioral.strategy;
 
 class StrategyPatternDemo {
     public static void main(String[] args) {
@@ -9,8 +9,10 @@ class StrategyPatternDemo {
         cart.setPaymentStrategy(new CreditCardPayment("1234567890123456"));
         cart.checkout();
 
+        System.out.println("----");
+
         cart.addItem(200);
-        cart.setPaymentStrategy(new PayPalPayment("user@example.com"));
+        cart.setPaymentStrategy(new PayPalPayment("email@example.com"));
         cart.checkout();
     }
 }

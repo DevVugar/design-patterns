@@ -1,4 +1,4 @@
-package designPattern.behavioal.observer;
+package designPattern.behavioral.observer;
 
 import java.util.ArrayList;
 import java.util.List;

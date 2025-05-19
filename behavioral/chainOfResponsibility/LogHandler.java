@@ -1,4 +1,4 @@
-package designPattern.behavioal.chainOfResponsibility;
+package designPattern.behavioral.chainOfResponsibility;
 
 abstract class LogHandler {
     protected static final int INFO = 1;
